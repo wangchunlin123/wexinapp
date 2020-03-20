@@ -11,4 +11,29 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+   "tabBar": {
+    "color": "black",
+    "selectedColor": "#42BD56",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./images/home_page.png",
+        "selectedIconPath": "./images/home_page_1.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "./images/order.png",
+        "selectedIconPath": "./images/order_1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./images/mine.png",
+        "selectedIconPath": "./images/mine_1.png"
+      }
+    ]
+  },
 }
