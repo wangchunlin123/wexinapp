@@ -35,6 +35,6 @@ App({
   },
   globalData: {
     userInfo: null,
-    host: 'https://tcb-api.tencentcloudapi.com',
+    baseUrl:"http://localhost:3000"
   }
 })
